@@ -1,0 +1,6 @@
+{
+  "name": "Publicaciones",
+  "description": "App en Kotlin y Jetpack Compose para gestionar y consultar publicaciones y comentarios mediante la API REST JSONPlaceholder con Retrofit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

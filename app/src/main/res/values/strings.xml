@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Publicaciones</string>
+    <string name="title_posts">Reseñas de Libros</string>
+    <string name="title_post_detail">Detalle de Reseña</string>
+    <string name="title_new_post">Nueva Reseña de Libro</string>
+    <string name="title_edit_post">Editar Reseña</string>
+    <string name="title_comments">Comentarios Literarios</string>
+    <string name="title_users">Usuarios del Sistema</string>
+    
+    <!-- Filtros y acciones -->
+    <string name="filter_all_users">Todas las reseñas</string>
+    <string name="filter_user">Usuario %1$d</string>
+    <string name="action_user_list">Lista de usuarios</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="action_save">Guardar Reseña</string>
+    <string name="action_create">Publicar Reseña</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="active_user_label">Usuario Activo:</string>
+    <string name="change_active_user">Cambiar Usuario Activo</string>
+
+    <!-- Formularios -->
+    <string name="field_title">Título de la Reseña / Libro</string>
+    <string name="field_body">Análisis / Opinión Literaria</string>
+    <string name="field_user_id">Usuario Autor (ID 1-10)</string>
+    <string name="error_empty_title">El título de la reseña no puede estar vacío</string>
+    <string name="error_empty_body">El análisis literario no puede estar vacío</string>
+    <string name="error_invalid_user_id">Selecciona un ID de usuario válido (1-10)</string>
+    <string name="error_permission_denied">Solo puedes editar o eliminar reseñas que correspondan a tu usuario activo.</string>
+
+    <!-- Mensajes de estado -->
+    <string name="loading_posts">Cargando reseñas de libros…</string>
+    <string name="loading_comments">Cargando comentarios literarios…</string>
+    <string name="loading_users">Cargando lista de usuarios…</string>
+    <string name="empty_posts">No se encontraron reseñas de libros</string>
+    <string name="empty_comments">No hay comentarios literarios disponibles</string>
+    <string name="empty_users">No se encontraron usuarios</string>
+    <string name="error_loading_users">Error al cargar usuarios</string>
+    
+    <!-- Confirmación de eliminación -->
+    <string name="dialog_delete_title">¿Eliminar reseña de libro?</string>
+    <string name="dialog_delete_message">Esta acción enviará una solicitud DELETE a la API y removerá la reseña de la lista.</string>
+    
+    <!-- Errores amigables -->
+    <string name="error_no_internet">Sin conexión a Internet. Revisa tu red e inténtalo de nuevo.</string>
+    <string name="error_not_found">El recurso solicitado no fue encontrado (404).</string>
+    <string name="error_client">Error en la solicitud (%1$d). Verifica los datos ingresados.</string>
+    <string name="error_server">Error interno del servidor (%1$d). Inténtalo más tarde.</string>
+    <string name="error_unknown">Ocurrió un error inesperado: %1$s</string>
+    
+    <!-- Simulación API Feedback -->
+    <string name="notice_post_created">Reseña #%1$d creada exitosamente (simulado en memoria)</string>
+    <string name="notice_post_updated">Reseña #%1$d actualizada exitosamente (simulado en memoria)</string>
+    <string name="notice_post_deleted">Reseña #%1$d eliminada exitosamente (simulado en memoria)</string>
+</resources>
